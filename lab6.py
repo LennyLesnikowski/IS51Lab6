@@ -11,3 +11,21 @@ otherwise the result will be "Bar"
 We interate over useing a loop three times and print the results to the user. Ex "Cherries, Orange, Melon"
 
 """
+"""Psudocode
+import random
+num = generate random number
+
+If number is greater than 15
+    then the result will be "Cherries"
+otherwise if the number is greater than 10
+     then result will be "Orange"
+otherwise if the number is greater then 5
+     the result will be "Melon
+otherwise if the number is greater then 1 
+    the result will be "Bell"
+otherwise 
+    the result will be "Bar"
+
+loop three times
+    print the output to the user
+"""
