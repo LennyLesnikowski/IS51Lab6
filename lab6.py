@@ -29,3 +29,28 @@ otherwise
 loop three times
     print the output to the user
 """
+
+import random
+
+def main():
+    for i in range(0,3):
+        print ("i---->", i)
+        spin()
+def spin():
+    rand = random.randint(1,20)
+
+    output = ""
+    if (rand > 15):
+        output = "Cherries"
+    elif (rand > 10):
+        output = "Orange"
+    elif (rand > 5):
+        output = "Melon"
+    elif (rand > 1):
+        output = "Bell"
+    else:
+        output = "Bar"
+
+    print(output, end="")
+
+main()
